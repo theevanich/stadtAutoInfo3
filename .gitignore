@@ -1,0 +1,21 @@
+# Eclipse
+.project
+.cproject
+.settings
+.metadata
+
+# generated
+*.o
+*.a
+*.lo
+*.la
+*.elf
+*.map
+*.out
+*.lib
+*.exe
+
+# temporary
+*~
+.*.swp
+.*.lock*
