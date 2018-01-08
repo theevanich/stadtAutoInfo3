@@ -12,6 +12,6 @@ class PKW
     protected:
     private:
     public:
-}
+};
 
 #endif

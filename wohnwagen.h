@@ -12,6 +12,6 @@ class WOHNWAGEN
     protected:
     private:
     public:
-}
+};
 
 #endif

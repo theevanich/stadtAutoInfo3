@@ -12,6 +12,6 @@ class Motorrad
     protected:
     private:
     public:
-}
+};
 
 #endif

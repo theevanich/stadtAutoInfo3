@@ -12,6 +12,6 @@ class LKW
     protected:
     private:
     public:
-}
+};
 
 #endif

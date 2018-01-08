@@ -12,16 +12,17 @@ class KFZ
 {
     protected:
     private:
-        int tankvolumen;
-        int gewicht;
-        int mietpreis;
         string name;
         string hersteller;
         Status status;
         Fahrzeugtyp typ;
+        int tankvolumen;
+        int gewicht;
+        int mietpreis;
         
     public:
         KFZ(string, string, Fahrzeugtyp, int, int, int);
+        virtual ~KFZ();
         
         string getName() const;
         void setName(string);
@@ -44,7 +45,9 @@ class KFZ
         Fahrzeugtyp getFahrzeugtyp() const;
         void setFahrzeugtyp(Fahrzeugtyp);
         
-        getKFZ();
-}
+        KFZ getKFZ();
+        
+        void anzeige();
+};
 
 #endif
